@@ -1,0 +1,144 @@
+h1 {
+  width: 400px;
+  height: 200px;
+  border-color: navy;
+  border-width: thin;
+  border-style: solid;
+  border: 2px dashed green; /* Esto es un shorthand*/
+}
+
+.caja-1,
+.caja-2 {
+  background-color: chocolate;
+  border: medium solid orange;
+  padding: 20px 30px 10px;
+  margin: 20px;
+}
+
+.caja-linea,
+.caja-bloque {
+  background-color: darkcyan;
+  color: white;
+  width: 500px;
+  height: 250px;
+  border: medium solid black;
+  padding: 16px;
+}
+
+.caja-bloque {
+  margin: 32px;
+  display: block;
+}
+
+.caja-linea {
+  margin: 48px;
+  display: inline;
+}
+
+.caja-none,
+.caja-linea-bloque,
+.caja-hidden {
+  background-color: olive;
+  color: whitesmoke;
+  width: 600px;
+  height: 300px;
+  border: medium solid black;
+}
+
+.caja-linea-bloque {
+  display: inline-block;
+}
+
+.caja-none {
+  display: none;
+}
+
+.caja-hidden {
+  visibility: vi;
+}
+
+/** Overflow***/
+.overflow {
+  background-color: olivedrab;
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}
+
+/***box- sizong ***/
+
+.box-sizing-content,
+.box-sizing-border {
+  background-color: deepskyblue;
+  width: 500px;
+  height: 250px;
+  box-sizing: content-box;
+  padding: 10px;
+  border: thick solid black;
+}
+
+.box-sizing-border {
+  box-sizing: border-box;
+}
+
+.container-col-3 {
+  background-color: sandybrown;
+  width: 600px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.container-col-3 > * {
+  box-sizing: border-box;
+  float: left;
+  width: 200px;
+  border: thin solid black;
+}
+
+/*** float & clear **/
+.container-float {
+  background-color: darkolivegreen;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*** colapso de margenes verticales ***/
+
+.margin-collapse {
+  background-color: darkorchid;
+}
+
+.margin-collapse section {
+  border: thin solid black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.margin-collapse span {
+  display: inline-block;
+  border: thin solid black;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+/**** Centrado de Cajas ****/
+
+.sitio-web {
+  border: thin solid black;
+  background-color: thistle;
+  width: 800px;
+  height: 600px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto; */
+}

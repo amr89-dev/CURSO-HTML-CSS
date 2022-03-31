@@ -1,0 +1,22 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: brown;
+}
+
+img {
+  width: 10%;
+  height: auto;
+}
+
+iframe {
+  width: 50%;
+}

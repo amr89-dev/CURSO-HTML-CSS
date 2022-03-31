@@ -1,0 +1,240 @@
+h1 {
+  color: orange;
+  background-color: antiquewhite;
+}
+
+p {
+  color: midnightblue;
+}
+
+#parrafo-dos {
+  background-color: skyblue;
+}
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.bg-steelblue {
+  background-color: steelblue;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-white {
+  color: white;
+}
+
+.hijos-directos > li {
+  background-color: thistle;
+}
+
+.hijos-descendientes b {
+  background-color: thistle;
+}
+
+.hermanos-general ~ li {
+  background-color: thistle;
+}
+
+.hermanos-adyacente + li {
+  background-color: thistle;
+}
+
+/*** Selectores de Atributos ***/
+
+.selectores-atributos a[href] {
+  color: orangered;
+}
+
+.selectores-atributos a[target="_blank"] {
+  font-weight: bold;
+}
+
+.selectores-atributos a[href*="jonmircha"] {
+  font-size: 24px;
+}
+
+.selectores-atributos a[href^="http:"] {
+  text-decoration: none;
+}
+
+.selectores-atributos a[href$=".com"] {
+  background-color: brown;
+}
+
+.selectores-atributos a[class~="cursos"] {
+  background-color: midnightblue;
+}
+.selectores-atributos a[class|="menu"] {
+  font-style: italic;
+}
+
+/*** Selector Universal ***/
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.selector-universal * {
+  font-size: 26px;
+}
+
+/************* Pseudoclases *****************/
+
+/****** Pseudoclases de Estado *******/
+.form-psudoclases *:required {
+  border-color: yellow;
+}
+
+.form-psudoclases *:valid {
+  border-color: green;
+}
+.form-psudoclases *:invalid {
+  border-color: red;
+}
+.form-psudoclases *:focus {
+  background-color: skyblue;
+}
+.form-psudoclases *:disabled {
+  background-color: pink;
+}
+
+.menu-pseudoclases a:visited {
+  color: olive;
+}
+.menu-pseudoclases a:hover {
+  color: orange;
+}
+
+.p-pseudoclase:hover {
+  font-size: 20px;
+}
+
+#temario:target {
+  background-color: olivedrab;
+}
+/**** Pseudoclases por posicion******/
+
+.lista-pseudoclase li:first-child {
+  color: green;
+}
+.lista-pseudoclase li:last-child {
+  color: violet;
+}
+.lista-pseudoclase li:nth-child(3) {
+  color: navy;
+}
+.lista-pseudoclase li:nth-child(4n + 1) {
+  font-size: 30px;
+}
+.lista-pseudoclase li:nth-child(3n) {
+  font-weight: bold;
+}
+.lista-pseudoclase li:nth-child(even) {
+  background-color: orange;
+}
+.lista-pseudoclase li:nth-child(odd) {
+  background-color: yellow;
+}
+/**** Pseudoclases por tipo******/
+
+.articulo-pseudoclases p:first-of-type {
+  background-color: pink;
+}
+.articulo-pseudoclases p:last-of-type {
+  background-color: violet;
+}
+.articulo-pseudoclases p:nth-of-type(3) {
+  background-color: fuchsia;
+}
+.articulo-pseudoclases *:not(p, footer) {
+  background-color: beige;
+}
+
+/***** Pseudoelementos *******/
+.saga-geminis::after {
+  content: "🤼";
+}
+.saga-geminis::before {
+  content: "♊";
+}
+
+.saga-precio::before {
+  content: "$";
+  font-weight: bold;
+}
+
+.saga-precio::after {
+  content: "USD";
+}
+
+.parrafo-pseudoelementos::first-letter {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.parrafo-pseudoelementos::first-line {
+  color: coral;
+}
+
+.parrafo-pseudoelementos::selection {
+  color: green;
+  background-color: blueviolet;
+}
+
+.input-pseudoelementos::placeholder {
+  color: violet;
+}
+
+/****** Agrupar Selectores ********/
+.form-agrupar-selectores input[type="text"],
+.form-agrupar-selectores input[type="email"],
+.form-agrupar-selectores textarea {
+  border-color: yellow;
+  background-color: black;
+  display: block;
+  border-width: 2px;
+  font-size: 20px;
+  width: 300px;
+}
+
+/**** Especificidad del selector ****/
+
+blockquote#cita-marco.cita-marco {
+  background-color: lightsteelblue;
+}
+
+blockquote {
+  background-color: burlywood;
+}
+
+#cita-marco {
+  background-color: lightgreen;
+}
+
+blockquote.cita-marco {
+  background-color: tomato;
+}
+
+.cita-marco {
+  background-color: cornflowerblue;
+}
+
+blockquote#cite-marco {
+  background-color: lightsalmon;
+}
+
+.cita-marco {
+  background-color: mediumaquamarine !important;
+  border: dotted;
+  font-size: 32px;
+}
+.cita-marco cite {
+  border: inherit;
+}
