@@ -1,0 +1,18 @@
+:root {
+  --default-bg-color: skyblue;
+}
+
+.custom-props-1 {
+  --primary-color: grey;
+  --font-size: 32px;
+  background-color: var(--primary-color);
+}
+
+.custom-props-3 {
+  font-size: var(--font-size);
+}
+
+.tittle-props {
+  color: var(--primary-color);
+  background-color: var(--default-bg-color);
+}

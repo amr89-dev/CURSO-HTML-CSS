@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.pixels {
+  background-color: cadetblue;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  font-size: 32px;
+  border: thick solid rebeccapurple;
+}
+.ems {
+  background-color: cadetblue;
+  font-size: 24px;
+  padding: 1em 0.5em;
+  border: thick solid rebeccapurple;
+}
+
+.ems-child {
+  background-color: salmon;
+  border: thick solid beige;
+  margin: 0.5em;
+  padding: 1em;
+  font-size: 2em;
+}
+.rems {
+  background-color: cadetblue;
+  font-size: 24px;
+  padding: 1rem 0.5rem;
+  border: thick solid rebeccapurple;
+}
+
+.rems-child {
+  background-color: salmon;
+  border: thick solid beige;
+  margin: 0.5rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.exs {
+  background-color: cadetblue;
+  font-size: 24px;
+  padding: 1ex 0.5ex;
+  border: thick solid rebeccapurple;
+}
+
+.exs-child {
+  background-color: salmon;
+  border: thick solid beige;
+  margin: 0.5ex;
+  padding: 1ex;
+  font-size: 2ex;
+}
+
+.chs {
+  background-color: cadetblue;
+  width: 10ch;
+}
+
+.percent {
+  background-color: brown;
+  width: 80%;
+  padding: 5%;
+  margin: 20% 10%;
+  font-size: 100%;
+  height: 100%;
+}
+
+.height-parent {
+  background-color: burlywood;
+  width: 500px;
+  height: 500px;
+}
+.height-child {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+}
+
+.viewport {
+  background-color: darkcyan;
+  width: 100vw;
+  height: 100vh;
+}
+
+.vmax,
+.vmin {
+  background-color: darkorange;
+  border: thick solid cyan;
+  width: 50vmax;
+  height: 50vmin;
+}
