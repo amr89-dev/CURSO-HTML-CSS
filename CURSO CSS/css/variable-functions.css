@@ -2,6 +2,16 @@
   --default-bg-color: skyblue;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 .custom-props-1 {
   --primary-color: grey;
   --font-size: 32px;
@@ -15,4 +25,24 @@
 .tittle-props {
   color: var(--primary-color);
   background-color: var(--default-bg-color);
+}
+
+.ch-10 {
+  background-color: var(--default-bg-color);
+  font-size: 2rem;
+  --padding-size: 2ch;
+  --num-ch: 10ch;
+  padding: var(--padding-size);
+  width: calc(var(--num-ch) + var(--padding-size) * 2);
+}
+
+.min-max {
+  background-color: var(--default-bg-color);
+  margin-top: 1rem;
+  width: min(300px, 20vw, 20rem);
+  height: max(200px, 25vh);
+}
+
+h1 {
+  font-size: clamp(1rem, 1rem + 3vw, 3rem);
 }

@@ -1,0 +1,68 @@
+.font {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: oblique;
+  font-variant: small-caps;
+  line-height: 1.5;
+  font: italic small-caps bold 24px / 1.5 monospace;
+}
+@font-face {
+  font-family: "Chalet";
+  src: url("../assets/Chalet.woff") format("woff");
+  font-display: swap;
+}
+
+.chalet {
+  font-family: "Chalet", sans-serif;
+  font-size: 2rem;
+}
+
+@font-face {
+  font-family: "Pecita";
+  src: url("../assets/Pecita.woff") format("woff");
+  font-display: swap;
+}
+
+.pecita {
+  font-family: "Pecita";
+  font-size: 2rem;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  text-align: left;
+  text-decoration: overline;
+  text-decoration: none;
+  text-indent: 3rem;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+  letter-spacing: 0.5rem;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+a[href="index.html"] {
+  text-decoration: none;
+}
+
+.text-overflow {
+  background-color: coral;
+  border: thin solid black;
+  padding: 1rem;
+  width: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
