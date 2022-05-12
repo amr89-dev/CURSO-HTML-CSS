@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movimiento en CSS</title>
+  <link rel="stylesheet" href="css/motion.css">
+</head>
+
+<body>
+  <h1>Movimiento en CSS</h1>
+  <hr>
+  <section class="transitions">
+    <h2>Transiciones</h2>
+    <div class="box"></div>
+    <article class="card">
+      <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+    </article>
+
+  </section>
+  <hr>
+  <h2>Transformaciones</h2>
+  <h3>Transformaciones en 2D</h3>
+  <article class="card transformation-2d">
+    <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+  </article>
+  <h3>Transformaciones en 3D</h3>
+  <article class="card transformation-3d">
+    <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+  </article>
+  <h3>Pivot de la transformacion</h3>
+  <article class="card transformation-pivot">
+    <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+  </article>
+  <h3>Flips Cards</h3>
+  <article class="flip-card-1">
+    <div class="flip-face flip-front">
+      <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+    </div>
+    <div class="flip-face flip-back">
+      <img src="./assets/BuenosDias.jpg" alt="buenos-dias">
+    </div>
+  </article>
+  <article class="flip-card-2">
+    <div class="flip-face flip-front">
+      <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+    </div>
+    <div class="flip-face flip-back">
+      <img src="./assets/BuenosDias.jpg" alt="buenos-dias">
+    </div>
+  </article>
+  <hr>
+  <section class="aimations">
+    <h2>Animaciones</h2>
+    <article class="card my-animation">
+      <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+    </article>
+    <article class="card my-animation-2">
+      <img src="./assets/puesta-sol.jpg" alt="puesta-sol">
+    </article>
+  </section>
+  <section class="motion-examples">
+    <h2>Ejemplos de Efectos de Movimiento en CSS</h2>
+    <h3>Efecto Fade-In</h3>
+    <div class="fade-in">
+      🧔🏽‍♂️
+    </div>
+    <h3>Efecto Sacudir</h3>
+    <div class="shake">
+      ☕
+    </div>
+    <h3>Efeco Pulsaciones</h3>
+    <div class="pulse">
+      💓
+    </div>
+    <h3>Dibujando un Corazon con CSS</h3>
+    <div class="heart"></div>
+    <h3>Dibujando un Loader/Spinner</h3>
+    <div class="loader"></div>
+    <h3>Botones Animados</h3>
+    <button class="btn anim-bottom to-left">Animacion Izquierda</button>
+    <button class="btn anim-bottom to-center">Animacion Centro</button>
+    <button class="btn anim-bottom to-right">Animacion Derecha</button>
+    <button class="btn anim-bg-gradient">Fondo Gradiente</button>
+    <h3>Menu de pestañas</h3>
+    <nav class="tabs-menu">
+      <input type="radio" name="tabs" id="tab-1">
+      <label for="tab-1">Sección 1</label>
+      <input type="radio" name="tabs" id="tab-2">
+      <label for="tab-2">Sección 2</label>
+      <input type="radio" name="tabs" id="tab-3">
+      <label for="tab-3">Sección 3</label>
+      <input type="radio" name="tabs" id="tab-4">
+      <label for="tab-4">Sección 4</label>
+      <input type="radio" name="tabs" id="tab-5">
+      <label for="tab-5">Sección 5</label>
+      <div class="tab-bg-hover"></div>
+    </nav>
+    <h3>Menu Off Canvas</h3>
+    <input type="checkbox" class="off-canvas-btn">
+    <label for="" class="off-canvas-burger"></label>
+    <nav class="off-canvas-menu">
+      <div class="off-canvas-menu-container">
+        <a href="#" class="off-canvas-link">Sección 1</a>
+        <a href="#" class="off-canvas-link">Sección 2</a>
+        <a href="#" class="off-canvas-link">Sección 3</a>
+        <a href="#" class="off-canvas-link">Sección 4</a>
+        <a href="#" class="off-canvas-link">Sección 5</a>
+      </div>
+    </nav>
+    <h3>Ventana Modal </h3>
+    <a href="#modal-1">Abrir Modal</a>
+    <article class="modal" id="modal-1">
+      <div class="modal-container">
+        <a href="#cerrar" class="modal-close">X</a>
+        <h2>Esto es una ventana modal</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi repellat dolores dignissimos
+          architecto nulla, optio nam facere maiores aperiam quos modi maxime nihil tenetur reprehenderit consequatur
+          aliquam laborum earum?</p>
+        <ul>
+          <li><a href="">Enlace</a></li>
+          <li><a href="">Enlace</a></li>
+          <li><a href="">Enlace</a></li>
+          <li><a href="">Enlace</a></li>
+          <li><a href="">Enlace</a></li>
+        </ul>
+      </div>
+    </article>
+    <h3>Star Wars Intro</h3>
+    <article class="star-wars">
+      <div class="star-wars-container">
+        <h2>Episode III</h2>
+        <h3>REVENGE OF SITH</h3>
+        <p>
+          War! The Republic is crumbling
+          under attacks by the ruthless
+          Sith Lord, Count Dooku.
+          There are heroes on both sides.
+          Evil is everywhere.
+        </p>
+
+        <p>
+          In a stunning move, the
+          fiendish droid leader, General
+          Grievous, has swept into the
+          Republic capital and kidnapped
+          Chancellor Palpatine, leader of
+          the Galactic Senate.
+        </p>
+
+        <p>
+          As the Separatist Droid Army
+          attempts to flee the besieged
+          capital with their valuable
+          hostage, two Jedi Knights lead a
+          desperate mission to rescue the
+          captive Chancellor....
+        </p>
+
+      </div>
+    </article>
+  </section>
+  <hr>
+
+
+  <a href="index.html#temario">👆</a>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

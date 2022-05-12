@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-item {
+  flex: 0 0 100%;
+  border: thin solid #ccc;
+}
+
+@media (min-width: 576px) {
+  .flex-item {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-item {
+    flex: 0 0 33.333333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-item {
+    flex: 0 0 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flex-item {
+    flex: 0 0 16.6666666666666667%;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+.titulares {
+  background-color: cyan;
+  color: magenta;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu li {
+    padding: 1rem;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .flex-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-content,
+  .flex-img {
+    flex: 0 0 50%;
+  }
+  .order {
+    order: 1;
+  }
+}
+
+.hero-image {
+  min-height: 100vh;
+  background-image: url("https://placeimg.com/1280/720/animals");
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.hero-image div {
+  background-color: rgba(0, 0, 0, 0.75);
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image h2 {
+  font-size: 5vw;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.responsive-flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.responsive-flex-item {
+  flex: 1 1 200px;
+  border: thin solid magenta;
+}

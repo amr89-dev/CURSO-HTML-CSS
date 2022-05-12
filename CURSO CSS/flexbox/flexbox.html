@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox</title>
+  <link rel="stylesheet" href="flexbox.css">
+
+</head>
+
+<body>
+  <h1>Flexbox</h1>
+  <h2>Propiedades del elemento padre</h2>
+  <h2>Display</h2>
+  <h3>display flex</h3>
+  <section class="container display">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <h3>display inline-flex</h3>
+  <section class=" inline">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <hr>
+  <h2>flex direction</h2>
+  <h3>flex direction row</h3>
+  <section class="container  row">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <h3>flex direction row-reverse</h3>
+  <section class="container rowreverse">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <h3>flex direction column</h3>
+  <section class="container  column">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <h3>flex direction column-reverse</h3>
+  <section class="container  columnreverse">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+  </section>
+  <hr>
+
+  <h2>flex wrap</h2>
+  <h3>nowrap row</h3>
+  <section class="container nowrap">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+    <article class="item">Flex Item 4</article>
+    <article class="item">Flex Item 5</article>
+    <article class="item">Flex Item 6</article>
+    <article class="item">Flex Item 7</article>
+    <article class="item">Flex Item 8</article>
+    <article class="item">Flex Item 9</article>
+    <article class="item">Flex Item 10</article>
+    <article class="item">Flex Item 11</article>
+    <article class="item">Flex Item 12</article>
+    <article class="item">Flex Item 13</article>
+    <article class="item">Flex Item 14</article>
+    <article class="item">Flex Item 15</article>
+    <article class="item">Flex Item 16</article>
+    <article class="item">Flex Item 17</article>
+    <article class="item">Flex Item 18</article>
+    <article class="item">Flex Item 19</article>
+    <article class="item">Flex Item 20</article>
+    <article class="item">Flex Item 21</article>
+    <article class="item">Flex Item 22</article>
+    <article class="item">Flex Item 23</article>
+    <article class="item">Flex Item 24</article>
+    <article class="item">Flex Item 25</article>
+  </section>
+  <h3>wrap row</h3>
+  <section class="container wrap ">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+    <article class="item">Flex Item 4</article>
+    <article class="item">Flex Item 5</article>
+    <article class="item">Flex Item 6</article>
+    <article class="item">Flex Item 7</article>
+    <article class="item">Flex Item 8</article>
+    <article class="item">Flex Item 9</article>
+    <article class="item">Flex Item 10</article>
+    <article class="item">Flex Item 11</article>
+    <article class="item">Flex Item 12</article>
+    <article class="item">Flex Item 13</article>
+    <article class="item">Flex Item 14</article>
+    <article class="item">Flex Item 15</article>
+    <article class="item">Flex Item 16</article>
+    <article class="item">Flex Item 17</article>
+    <article class="item">Flex Item 18</article>
+    <article class="item">Flex Item 19</article>
+    <article class="item">Flex Item 20</article>
+    <article class="item">Flex Item 21</article>
+    <article class="item">Flex Item 22</article>
+    <article class="item">Flex Item 23</article>
+    <article class="item">Flex Item 24</article>
+    <article class="item">Flex Item 25</article>
+  </section>
+  <h3>nowrap column</h3>
+  <section class="container nowrap column">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+    <article class="item">Flex Item 4</article>
+    <article class="item">Flex Item 5</article>
+    <article class="item">Flex Item 6</article>
+    <article class="item">Flex Item 7</article>
+    <article class="item">Flex Item 8</article>
+    <article class="item">Flex Item 9</article>
+    <article class="item">Flex Item 10</article>
+    <article class="item">Flex Item 11</article>
+    <article class="item">Flex Item 12</article>
+    <article class="item">Flex Item 13</article>
+    <article class="item">Flex Item 14</article>
+    <article class="item">Flex Item 15</article>
+    <article class="item">Flex Item 16</article>
+    <article class="item">Flex Item 17</article>
+    <article class="item">Flex Item 18</article>
+    <article class="item">Flex Item 19</article>
+    <article class="item">Flex Item 20</article>
+    <article class="item">Flex Item 21</article>
+    <article class="item">Flex Item 22</article>
+    <article class="item">Flex Item 23</article>
+    <article class="item">Flex Item 24</article>
+    <article class="item">Flex Item 25</article>
+  </section>
+  <h3>wrap column</h3>
+  <section class="container wrap column">
+    <article class="item">Flex Item 1</article>
+    <article class="item">Flex Item 2</article>
+    <article class="item">Flex Item 3</article>
+    <article class="item">Flex Item 4</article>
+    <article class="item">Flex Item 5</article>
+    <article class="item">Flex Item 6</article>
+    <article class="item">Flex Item 7</article>
+    <article class="item">Flex Item 8</article>
+    <article class="item">Flex Item 9</article>
+    <article class="item">Flex Item 10</article>
+    <article class="item">Flex Item 11</article>
+    <article class="item">Flex Item 12</article>
+    <article class="item">Flex Item 13</article>
+    <article class="item">Flex Item 14</article>
+    <article class="item">Flex Item 15</article>
+    <article class="item">Flex Item 16</article>
+    <article class="item">Flex Item 17</article>
+    <article class="item">Flex Item 18</article>
+    <article class="item">Flex Item 19</article>
+    <article class="item">Flex Item 20</article>
+    <article class="item">Flex Item 21</article>
+    <article class="item">Flex Item 22</article>
+    <article class="item">Flex Item 23</article>
+    <article class="item">Flex Item 24</article>
+    <article class="item">Flex Item 25</article>
+  </section>
+  <hr>
+
+  <h2>justify content</h2>
+  <h3>flex start row</h3>
+  <section class="container row flexstart">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>flex end row</h3>
+  <section class="container row  flexend">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>center row</h3>
+  <section class="container row center">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space between row</h3>
+  <section class="container row spacebetween">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space around row</h3>
+  <section class="container row spacearound">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space evenly row</h3>
+  <section class="container row spaceevenly">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>flex start column</h3>
+  <section class="container column flexstart">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>flex end column</h3>
+  <section class="container column flexend">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>center column</h3>
+  <section class="container column center">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space between column</h3>
+  <section class="container column spacebetween">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space around column</h3>
+  <section class="container column spacearound">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <h3>space evenly column</h3>
+  <section class="container column spaceevenly">
+    <article class="item">flex item 1</article>
+    <article class="item">flex item 2</article>
+    <article class="item">flex item 3</article>
+  </section>
+  <hr>
+
+  <h2>align items</h2>
+  <h3>strech row</h3>
+  <section class="container cheight row aistrech">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+
+  <h3>flex start row</h3>
+  <section class="container cheight row aiflexstart">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>flex end row</h3>
+  <section class="container cheight row aiflexend">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>center row</h3>
+  <section class="container cheight row aicenter">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>baseline row</h3>
+  <section class="container cheight row aibaseline">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>strech column</h3>
+  <section class="container cheight column aistrech">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>flex start column</h3>
+  <section class="container cheight column aiflexstart">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>flex end column</h3>
+  <section class="container cheight column aiflexend">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>center column</h3>
+  <section class="container cheight column aicenter">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <h3>baseline column</h3>
+  <section class="container cheight column aibaseline">
+    <article class="itemB">flex item 1</article>
+    <article class="itemBL">flex item 2</article>
+    <article class="itemB">flex item 3</article>
+  </section>
+  <hr>
+
+  <h2>align content</h2>
+  <h3>flex start</h3>
+  <section class="container cheight wrap acflexstart">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>flex end</h3>
+  <section class="container cheight wrap acflexend">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>center</h3>
+  <section class="container cheight wrap accenter">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space between</h3>
+  <section class="container cheight wrap acspacebetween">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space around</h3>
+  <section class="container cheight wrap acspacearound">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space evenly</h3>
+  <section class="container cheight wrap acspaceevenly">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>strech</h3>
+  <section class="container cheight wrap acstrech">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>flex start column</h3>
+  <section class="container cheight column wrap acflexstart">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>flex end column</h3>
+  <section class="container cheight column wrap acflexend">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>center column</h3>
+  <section class="container cheight column wrap accenter">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space between column</h3>
+  <section class="container cheight column wrap acspacebetween">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space around column</h3>
+  <section class="container cheight column wrap acspacearound">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>space evenly column</h3>
+  <section class="container cheight column wrap acspaceevenly">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+
+  </section>
+  <h3>strech column</h3>
+  <section class="container cheight column wrap acstrech">
+    <article class="itemB">Flex Item 1</article>
+    <article class="itemB">Flex Item 2</article>
+    <article class="itemB">Flex Item 3</article>
+    <article class="itemB">Flex Item 4</article>
+    <article class="itemB">Flex Item 5</article>
+    <article class="itemB">Flex Item 6</article>
+    <article class="itemB">Flex Item 7</article>
+    <article class="itemB">Flex Item 8</article>
+    <article class="itemB">Flex Item 9</article>
+    <article class="itemB">Flex Item 10</article>
+    <article class="itemB">Flex Item 11</article>
+    <article class="itemB">Flex Item 12</article>
+    <article class="itemB">Flex Item 13</article>
+    <article class="itemB">Flex Item 14</article>
+    <article class="itemB">Flex Item 15</article>
+    <article class="itemB">Flex Item 16</article>
+    <article class="itemB">Flex Item 17</article>
+    <article class="itemB">Flex Item 18</article>
+    <article class="itemB">Flex Item 19</article>
+  </section>
+  <hr>
+  <h2>Propiedades de los elementos hijos</h2>
+  <h3>flex grow</h3>
+  <section
+    class="container-bg-color container-height display container-width row nowrap flexstart aistrech acflexstart">
+    <article class="itemB flex-grow-1">Flex Item 1</article>
+    <article class="itemB flex-grow-1">Flex Item 2</article>
+    <article class="itemB flex-grow-3">Flex Item 3</article>
+  </section>
+  <h3>flex shrink</h3>
+  <section
+    class="container-bg-color container-height display container-width row nowrap flexstart aistrech acflexstart">
+    <article class="itemB flex-shrink-2">Flex Item</article>
+    <article class="itemB flex-shrink-1">Flex Item</article>
+    <article class="itemB flex-shrink">Flex Item</article>
+  </section>
+  <h3>flex basis</h3>
+  <section
+    class="container-bg-color container-height display container-width row nowrap flexstart aistrech acflexstart">
+    <article class="itemB flex-basis-1">Flex Item</article>
+    <article class="itemB flex-basis-2">Flex Item</article>
+    <article class="itemB flex-basis-3">Flex Item</article>
+  </section>
+  <h3>order</h3>
+  <section
+    class="container-bg-color container-height display container-width row nowrap flexstart aistrech acflexstart">
+    <article class="itemB order-3">Flex Item 1</article>
+    <article class="itemB order-0">Flex Item 2</article>
+    <article class="itemB order-1">Flex Item 3</article>
+    <article class="itemB ">Flex Item 4</article>
+    <article class="itemB ">Flex Item 5</article>
+  </section>
+  <h3>align self</h3>
+  <section
+    class="container-bg-color container-height display container-width row nowrap spacebetween aistrech acflexstart">
+    <article class="itemB ">Flex Item 1</article>
+    <article class="itemB align-self-1">Flex Item 2</article>
+    <article class="itemB align-self-2">Flex Item 3</article>
+    <article class="itemB align-self-3">Flex Item 4</article>
+    <article class="itemB ">Flex Item 5</article>
+  </section>
+</body>
+
+</html>
